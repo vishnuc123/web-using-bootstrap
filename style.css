@@ -1,7 +1,7 @@
 
 *{
     font-family: "Cabin", sans-serif;
-    cursor: none;
+    /* cursor: none; */
 }
 
 .custom-background{
@@ -95,11 +95,11 @@ background: linear-gradient(90deg, rgba(244,240,240,1) 30%, rgba(255,255,255,1) 
 }
 #mouse{
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     
-    border: 2px solid red;
-    border-radius: 30px;
+    border: 1px solid red;
+    border-radius: 20px;
     transform: translate(-50%,-350%);
     box-shadow: 3px 3px 20px 3px red;
     
