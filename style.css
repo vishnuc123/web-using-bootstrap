@@ -12,7 +12,7 @@
     
 }
 .custom-text{
-    font-size: 4.2em;
+    font-size: 4rem;
     color:linen;
     font-family: Aeonik, sans-serif;
 }
@@ -61,10 +61,8 @@ background: linear-gradient(90deg, rgba(244,240,240,1) 30%, rgba(255,255,255,1) 
 
 /* media queries */
 
-@media(max-width: 576px){
-    .video-printing{
-        width: 100%;
-    }
+
+@media (max-width: 576px){
     .video-factory-grid{
         width: 100%;
     }
@@ -75,12 +73,18 @@ background: linear-gradient(90deg, rgba(244,240,240,1) 30%, rgba(255,255,255,1) 
         font-size: 10pt;
         
     }
+    .custom-text{
+        font-size: 2em;
+    }
     #carousel{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 150vw;
+        align-items: center;
         
+    }
+    .carousel.pointer-event{
+        width: 100%;
     }
     
 }
