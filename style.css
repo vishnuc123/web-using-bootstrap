@@ -5,7 +5,7 @@
 }
 
 .custom-background{
-    background-image: url(images/main-background.webp);
+    background-image: url(images/bg.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -13,7 +13,7 @@
 }
 .custom-text{
     font-size: 4rem;
-    color:linen;
+    color:black;
     font-family: Aeonik, sans-serif;
 }
 .first-col{
