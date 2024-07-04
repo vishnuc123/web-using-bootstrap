@@ -1,0 +1,105 @@
+
+*{
+    font-family: "Cabin", sans-serif;
+    cursor: none;
+}
+
+.custom-background{
+    background-image: url(images/main-background.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.custom-text{
+    font-size: 4.2em;
+    color:linen;
+    font-family: Aeonik, sans-serif;
+}
+.first-col{
+    background-image: url(images/first-coloumn.webp);
+    background-size: cover;
+    height: 100vh;
+}
+.second-col{
+    background-color: #677b65;
+    height: 100vh;
+}
+#num{
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+}
+#third-section{
+    background-color: #f4f0f0;
+    height: fit-content;
+    
+}
+.bg-grey{
+    padding-top: 20px;
+    width: 30vw;
+    height: 60vh;
+    background-color: lightgray;
+
+}
+.image{   
+    height: 80vh;
+    bottom: 0;
+}
+#fourth-section{
+    background: rgb(244,240,240);
+background: linear-gradient(90deg, rgba(244,240,240,1) 30%, rgba(255,255,255,1) 49%, rgba(244,240,240,1) 73%);
+}
+.seperate-line{
+    width: 1px;
+    min-height: 10px;
+}
+#b-box1{
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+
+/* media queries */
+
+@media(max-width: 576px){
+    .video-printing{
+        width: 100%;
+    }
+    .video-factory-grid{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .about-content h1{
+        font-size: 10pt;
+        
+    }
+    #carousel{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 150vw;
+        
+    }
+    
+}
+@media (max-width:992px){
+    #third-row-head{
+        display: none;
+    }
+}
+#mouse{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    
+    border: 2px solid red;
+    border-radius: 30px;
+    transform: translate(-50%,-350%);
+    box-shadow: 3px 3px 20px 3px red;
+    
+    pointer-events: none;
+    z-index: 3;
+
+}
